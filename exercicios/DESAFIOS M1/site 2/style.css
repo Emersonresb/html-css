@@ -1,0 +1,130 @@
+@charset    "UTF-8";
+
+
+body { background-color: #04bf8a9f; margin: 0px 0px 0px 0px;}
+
+header {
+    color: aliceblue;
+    text-align: center;
+    background-image: linear-gradient( to bottom, #04BF8A, #025940); 
+    padding: 10px 10px 10px 10px;
+    box-shadow: 1px 0px 4px 4px rgba(0, 0, 0, 0.377);
+    }
+header > h1 { text-shadow: 2px 2px 5px gray; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 2.5em;}
+header > h2 { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgba(240, 248, 255, 0.644); font-size: 1em; 
+margin-bottom: 25px}
+header > nav { 
+    text-align: left;}
+    header > nav > a {
+        color: aliceblue;
+        margin: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        transition-duration: .5;
+    }
+    header > nav > a:hover { color:#01d9f1;}
+
+main {text-align: center;
+      background-color: aliceblue;
+      padding: 10px 50px 10px 50px;
+      min-width: 320;
+      max-width: 1000px;
+      margin: auto;
+      box-shadow: 1px 0px 4px 4px rgba(0, 0, 0, 0.377);
+      border-radius: 0px 0px 10px 10px;
+}
+main > h1 { 
+    font-family: consolas;
+    text-align: left;
+    color: #025940;
+    text-shadow: 1px 1px 1px gray;
+} 
+main > p {
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.726);
+    text-align: justify;
+    text-indent: 30px;
+}
+main > p > span {color: #0ab484}
+
+main > .h2main {
+    font-family: consolas;
+    text-shadow: 1px 1px 1px gray;
+    color: #025940;
+    font-size: 1.8em;
+    text-align: left;
+    background-image: linear-gradient( to right, #12a77d21, #cecece0a);
+}
+
+main > .video{
+    text-align: center;
+}
+
+#Pgfinal {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.726);
+  background-color: #04bf8a9f; /* muda a cor de fundo */
+  padding: 0px 20px 20px;            /* espaçamento interno */
+  border-radius: 10px;       /* deixa bordas arredondadas */
+  text-align: center;        /* centraliza o conteúdo */
+  margin: 30px auto;         /* espaço externo e centralização */
+  width: 95%;                /* largura máxima */
+  text-align: justify;
+  text-indent: 30px;
+  box-shadow: 1px 0px 2px 2px rgba(0, 0, 0, 0.377)
+}
+#Pgfinal h2 {
+  font-size: 24px;
+  text-align: left;
+  background-color: #2ca07fc9;
+  padding: 10px 5px 10px 10px;
+  margin: 0 -20px 12px;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: consolas;
+  
+  
+}
+
+.listas {
+  text-align: left;
+  display: flex;           /* deixa lado a lado */
+  justify-content: space-between; /* espaçamento */
+  margin: 0px 40% 0px 0px;
+
+}
+.listas ol {
+  list-style-type: none;   /* remove a numeração padrão */
+  padding: 0;
+}
+
+.listas li {
+  margin: 5px 0;  
+}
+
+div.video { background-color: #025940;
+padding: 50px;
+margin: 0px -50px 0px -50px;
+position: relative;
+padding-bottom: 56.9%;
+}
+div.video > iframe {
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+
+footer { background-color: #025940;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    font-family: consolas;
+}
